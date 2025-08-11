@@ -6,3 +6,9 @@
 
 This challenge talks about how the web is **ALREADY** respoinsive, we just make it behave otherwise using css.
 And here's the problem if you want to keep things responsive avoide using units like **px**, instead use **[%, em, rem]**, and **DON'T** use heights for fun just keep the content take its height. 
+
+- EM & REM
+
+The main difference between the two units is R stands for **Root** which is the html and by defaults its *16px*, when sitting a size for 
+*1rem* for ex, the element gets exactly **16px** but when using *em* its relative to the direct parent size no the root.
+
