@@ -22,3 +22,12 @@ The problem is when it starts cascading, ex:
         <ul> <li>item 3</li> <ul>
 ```
 So if the first unordered list has a font-size of 1.5em, **the next will have 1.5em * 1.5em and so on.**
+
+- Max width
+
+Adding a max width property won't change anything for the small screens behavior, but when the view port is bigger than the max-width value it'll stuck to that width. ex:
+
+```
+    width: 80%;
+    max-width: 750px;
+```
