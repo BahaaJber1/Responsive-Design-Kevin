@@ -35,3 +35,13 @@ body {
 .intro-content {
   width: 50%;
 }
+
+.bottom-content {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.bg-clr {
+  background-color: #23424a;
+}
